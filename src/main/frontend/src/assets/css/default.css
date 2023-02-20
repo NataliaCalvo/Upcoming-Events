@@ -1,0 +1,20 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Kreon&family=Signika:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap"); */
+
+:root {
+  --background: #121212;
+  --font-family-title: "Kreon", serif;
+  --font-family-text: sans-serif;
+  --color-text: #EAEAEA;
+  --background-button-pink: #E32652;
+  --background-button-grey: #8E8E8E;
+  --background-button-gren: #28A745;
+  --background-button-yellow: #FFC107;
+  --background-button-red: #DC3545;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+}

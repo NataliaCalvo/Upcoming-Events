@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Kreon&family=Signika:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+.event-container {
+  display: flex;
+  margin: 15px;
+}
+.event-container img {
+  width: 15%;
+}
+.event-container .info-container {
+  margin: 0 10px;
+}
+.event-container .info-container .info-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.event-container .info-container .info-top h2 {
+  color: #eaeaea;
+  font-size: 1.5rem;
+  font-family: "Kreon", serif;
+}
+
+.event-container .info-container .info-top .info-date {
+  color: #eaeaea;
+  font-size: 1.5rem;
+  font-family: "Kreon", serif;
+}
+.event-container .info-container .info-text {
+  color: #eaeaea;
+  font-family: 'Lexend', sans-serif;;
+}
+.data-container {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.data-container button {
+  background-color: #e32652;
+  border: none;
+  color: #eaeaea;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+.data-container span {
+  color: #eaeaea;
+  font-size: 1.5rem;
+  font-family: "Kreon", serif;
+}
